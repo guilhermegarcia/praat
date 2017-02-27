@@ -1,6 +1,6 @@
 
 
-```{praat}
+```
 
 #====================================================
 #
@@ -92,7 +92,7 @@ personal_variables$ = "ID name age email L1 gender education lang english years_
 #==========================
 
 
-Read from file: "/Users/guilhermegarcia/Dropbox/McGill/PhD/Publications/Dissertation/Dissertation/data_scripts/chapter3/Stimuli/experiment/experiment_file.txt"
+Read from file: "experiment_file.txt"
 
 
 #==========================
@@ -149,7 +149,7 @@ endfor
 #==========================
 
 
-Read Table from comma-separated file: "/Users/guilhermegarcia/Dropbox/McGill/PhD/Publications/Dissertation/Dissertation/data_scripts/chapter3/Stimuli/ling_data_frames/ling.csv"
+Read Table from comma-separated file: "ling.csv"
 
 
 #==========================
@@ -219,7 +219,7 @@ endfor
 #==========================
 
 
-Save as comma-separated file: "/Users/guilhermegarcia/Dropbox/McGill/PhD/Publications/Dissertation/Dissertation/data_scripts/chapter3/Stimuli/output/" + username$ + ".csv"
+Save as comma-separated file: "output/" + username$ + ".csv"
 
 
 #==========================
@@ -229,8 +229,5 @@ Save as comma-separated file: "/Users/guilhermegarcia/Dropbox/McGill/PhD/Publica
 
 select all
 Remove
-
-
-
 
 ```
