@@ -16,7 +16,9 @@ To run this script you'll need:
 A. An experiment file (`*.txt`) (see (2) above)    
 B. A `csv` file with your linguistic variables
 
-Finally, you'll probably want to change the paths in the script. The script assumes (A) and (B) above are in the same directory as the script itself. A folder (`output`) is also assumed to be present.
+Finally, you'll probably want to change the paths in the script. The script assumes (A) and (B) above are in the same directory as the script itself. A folder (`output`) is also assumed to be present. The script does not use the `createDirectory` command on Praat, so you can run the exact same script for every participant.
+
+**Important**: One of the fields in the questionnaire can be used to identify each participant (`username`). Note that if you repeat the `username`, Praat will **overwrite** the file. So just make sure to assign unique `username`s.
 
 ```
 
