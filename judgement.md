@@ -1,5 +1,12 @@
 ## Judgement experiment script
 
+
+### Motivation
+
+When you run an experiment, you typically have to deal with different data frames (e.g., personal information, variables of interest, actual responses etc.). The idea behind this script is to combine these frames into an output that is ready for analysis. In other words, each participant will have a single `csv` file, and the only thing you'll have to do is 'stitch' them together.
+
+### What the script does
+
 The script below does three things:
 
 1. Collects personal information of a given participant
