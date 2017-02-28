@@ -1,5 +1,6 @@
 ## Judgement experiment script
 
+2017 Guilherme D. Garcia (McGill)
 
 ### Motivation
 
