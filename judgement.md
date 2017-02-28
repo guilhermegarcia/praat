@@ -45,7 +45,8 @@ Finally, you'll probably want to change the paths in the script. The script assu
 ### REQUIREMENTS:
 
 ###### MFC Experiment file (txt) and associated files
-###### csv file with lingustic variables (ling.csv); number of rows must match number of stimuli/trials
+###### csv file with lingustic variables (ling.csv); 
+###### number of rows must match number of stimuli/trials
 
 
 #==========================
