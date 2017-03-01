@@ -59,22 +59,22 @@ form Welcome!
 	comment Thanks for participating in our study. Please, answer the following questions.
 	comment IMPORTANT: Do not use punctuation in your answers.
 	comment 
-    sentence Name name
+	sentence Username your ID
+	sentence Name name
+	natural Age 99
 	sentence Email email
+	optionmenu Gender 1
+		option Female
+		option Male
+		option Other
 	optionmenu Native_language 1
 		option English
 		option French
 		option Portuguese
 		option Other
-	sentence Username your ID
-    natural Age 99
-	optionmenu Gender 1
-		option Female
-		option Male
-		option Other
 	choice Do_you_speak_other_languages 1
 		button No
-    	button Yes
+	    	button Yes
 	optionmenu Level_of_education 2
 		option High school
 		option College
