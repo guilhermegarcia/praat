@@ -220,7 +220,7 @@ endfor
 
 
 ### Looping begins at 2 to remove Subject column ('file name'), 
-### which is redundant given ID and name variables
+### which is redundant given ID and name variables.
 ### To remove stimulus column as well, start from 3
 
 for col from 2 to ncols_experiment
